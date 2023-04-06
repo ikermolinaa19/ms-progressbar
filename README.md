@@ -1,4 +1,4 @@
-## MS SCRIPTS - ms-progressbar
+## ms-progressbar
 
 Redesign of the mdn_progressbar by Medinaa#7364, this redesign has been done by Molina#6922
 
