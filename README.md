@@ -1,6 +1,6 @@
 ## MS SCRIPTS - ms-progressbar
 
-Redesign of the mdn_progress by Medinaa#7364, this redesign has been done by Molina#6922
+Redesign of the mdn_progressbar by Medinaa#7364, this redesign has been done by Molina#6922
 
 It is strictly forbidden to steal this script either by changing the name or removing the authors' names.
 
@@ -21,3 +21,9 @@ The installation of this textui is very simple, here is a step-by-step explanati
 function ESX.Progressbar(message, length, Options)
     exports["esx_progressbar"]:Progressbar(message, length, Options)
 end
+
+## How to add ms-progressbar to any script?
+
+``exports['ms-progressbar']:Progress(message, time, color)``
+
+``TriggerEvent('ms-progressbar:progress', message, time, color)``
